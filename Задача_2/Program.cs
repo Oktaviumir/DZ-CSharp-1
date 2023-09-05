@@ -10,11 +10,11 @@ int Num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число для сравнения чисел");
 int Num2 = Convert.ToInt32(Console.ReadLine());
 
-if (Num1 > Num2)
+if (Num1 >= Num2)
 {
-    Console.WriteLine($"Максимальное число {Num1}");
+    Console.WriteLine($"Число {Num1} больше");
 }
 else
 {
-    Console.WriteLine("Максимальное число" + Num2);
+    Console.WriteLine($"Число {Num2} больше");
 }
