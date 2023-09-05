@@ -16,5 +16,5 @@ if (Num1 > Num2)
 }
 else
 {
-    Console.WriteLine($"Максимальное число {Num2}");
+    Console.WriteLine("Максимальное число" + Num2);
 }
